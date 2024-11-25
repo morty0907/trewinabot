@@ -157,6 +157,7 @@ def admin(message):
         bot.send_message(message.from_user.id, 'Вы не администратор!')
 
 
+
 # Этап выбора
 def choice(message):
     admin_id = message.from_user.id
